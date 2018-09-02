@@ -1,23 +1,49 @@
-# HTML Album Cover
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Album Cover</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="front" class="album">
+        <div id="title-box">
 
-This challenge asks that you recreate the album cover shown in the <a href="https://s3.amazonaws.com/learn-verified/MOCKUP.jpg" target="_blank">MOCKUP.jpg</a> image by writing the appropriate HTML necessary into the `index.html` page. Use `SOURCE.md` to copy and paste in all filler text needed.
+          <!-- Level 4 'PHARRELL WILLIAMS' Header -->
+          <h4>PHARRELL WILIAMS</h4>
+          <!-- Level 2 'HAPPY' Header -->
+          <h2>HAPPY</h2>
+          <!-- Level 4 '| FROM DESPICABLE ME...' Header -->
+          <h4>FROM DESPICABLE ME ...</h4>
+        </div>
+      </div>
 
-## Tasks for LearnIDE Environment Users
+      <div id="back" class="album">
 
-1. Click the "OPEN IDE" button
-
-## Tasks for Local Environment Users
-
-1. Fork this repository.
-2. Clone your fork locally.
-3. `cd` into the local repo you just cloned.
-
-## Process 
-
-1. Take a look at the <a href="https://s3.amazonaws.com/learn-verified/MOCKUP.jpg" target="_blank">MOCKUP.jpg</a> image.
-2. Use the comments in `index.html` to create the elements necessary to recreate the album cover shown in <a href="https://s3.amazonaws.com/learn-verified/MOCKUP.jpg" target="_blank">MOCKUP.jpg</a>. Also use `SOURCE.md` to copy and paste all necessary filler text.
-3. Open up `index.html` in the browser as well for a side by side comparison with <a href="https://s3.amazonaws.com/learn-verified/MOCKUP.jpg" target="_blank">MOCKUP.jpg</a> as you work. To open `index.html` from the IDE, follow [these steps](http://help.learn.co/the-learn-ide/common-ide-questions/viewing-html-pages-in-the-learn-ide).
-
-***NOTE***: Clicking the blue `Open` button on the Learn.co lesson page or running the `learn open` command in your terminal will automatically fork and clone the repository and change into the appropriate directory.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-album-cover' title='HTML Album Cover'>HTML Album Cover</a> on Learn.co and start learning to code for free.</p>
+        <!-- Level 3 '| FROM DESPICABLE ME...' Header -->
+        <h3>| FROM DESPICABLE ME...</h3>
+        <!-- Level 1 'HAPPY' Header -->
+        <h1>HAPPY</h1>
+        <!-- Level 3 'WRITTEN BY...' Header -->
+        <h3>WRITTEN BY <b>PHARRELL WILLIAMS</b></h3>
+        <!-- pararaph text 'PUBLISHED BY...' -->
+        <p>PUBLISHED BY hellow hello hello hello hello hello hellow hello hello hello hello hello hellow hello hello hello hello hello
+          hellow hello hello hello hello hello hellow hello hello hello hello hello hellow hello hello hello hello hello
+          hellow hello hello hello hello hello hellow hello hello hello hello hello hellow hello hello hello hello hello
+          hellow hello hello hello hello hello hellow hello hello hello hello hello hellow hello hello hello hello hell0
+        <!-- span text 'PHARRELLWILLIAMS.COM' -->
+          <span>PHARRELLWILLIAMS.COM</span>
+        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/columbia-logo.png] -->
+          <img src="https://s3.amazonaws.com/learn-verified/columbia-logo.png">
+        <!-- span text 'COLUMBIARECORDS.COM' -->
+          <span>COLUMBIARECORDS.COM</span>
+        <br>
+        
+        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/sony-logo.png] -->
+          <img src="https://s3.amazonaws.com/learn-verified/sony-logo.png" />
+          </p>
+      </div>
+    </div>
+  </body>
+</html>
